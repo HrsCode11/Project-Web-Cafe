@@ -3,9 +3,9 @@
 ## featur
 Sprint 1
 * Login
-* Menambah data
-* Menghapus data
-* Edit data
+* Pemesanan
+* Menu
+* Cetak Nota
 
 ## Keterangan Folder
 > Desain 
