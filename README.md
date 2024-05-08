@@ -1,13 +1,24 @@
-NAMA APLIKASI:
-Web Cafe
+# Nama Aplikasi
+> AFH Cafe
+## featur
+Sprint 1
+* Login
+* Menambah data
+* Menghapus data
+* Edit data
 
-FITUR:
-1. menambahkan data
-2. menghapus data
-3. mengedit data
+## Keterangan Folder
+> Desain 
+> Aplikasi
+> Documentasi
+### Requirements
 
-REQUIREMENT:
-Laravel
-Komposer
+* laravel
+* composer
 
-
+### Installation
+> cara instalasi
+## [Usage](#usage)
+> 
+## [Configuration](#configuration)
+> konfigurasi yang dibutuhkan jika ada
