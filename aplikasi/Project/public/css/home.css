@@ -1,0 +1,124 @@
+.div {
+    background: linear-gradient(90deg, #fff 56.01%, #eee1d1 100%);
+    display: flex;
+    padding-bottom: 80px;
+    flex-direction: column;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  .div-2 {
+    border-radius: 0px 0px 30px 30px;
+    background-color: #594a47;
+    display: flex;
+    gap: 0px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 8px 33px 16px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      flex-wrap: wrap;
+      padding: 0 20px;
+    }
+  }
+  .img {
+    aspect-ratio: 1.08;
+    object-fit: auto;
+    object-position: center;
+    width: 113px;
+    max-width: 100%;
+  }
+  .div-3 {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+    }
+  }
+  .div-4 {
+    display: flex;
+    width: 784px;
+    max-width: 100%;
+    flex-direction: column;
+    margin: 248px 0 0 53px;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      margin-top: 40px;
+    }
+  }
+  .div-5 {
+    color: #000;
+    font: 600 48px Montserrat, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .div-6 {
+    color: #000;
+    margin-top: 18px;
+    font: 64px/96px Montserrat, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 66px;
+    }
+  }
+  .div-7 {
+    display: flex;
+    width: 416px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 20px;
+    white-space: nowrap;
+    margin: 37px 0 0 14px;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      margin-left: 10px;
+      white-space: initial;
+    }
+  }
+  .div-8 {
+    font-family: Montserrat, sans-serif;
+    border-radius: 10px;
+    background-color: #594a47;
+    color: #fff;
+    justify-content: center;
+    padding: 25px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      white-space: initial;
+      padding: 0 27px 0 24px;
+    }
+  }
+  .div-9 {
+    font-family: Montserrat, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    align-items: start;
+    color: #000;
+    justify-content: center;
+    padding: 25px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      white-space: initial;
+      padding: 0 20px 0 24px;
+    }
+  }
