@@ -5,35 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
-  <link rel="stylesheet" href="css/home.css">
+  @vite('resources/css/app.css')
 </head>
-<body>
-<div class="div">
-    <div class="div-2">
-      <img
-        loading="lazy"
-        srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1cd9c664f82ecf740f971565c42a4049c18668154b1772a8af1b0f4bc7dd3fbd?apiKey=be5e72ad87b6427bad65a41b37dec33a&"
-        class="img"
-      />
-      <div class="div-3">AFH CAFE</div>
-    </div>
-    <div class="div-4">
-      <div class="div-5">Selamat Datang</div>
-      <div class="div-6">
-        Silahkan daftar terlebih
-        <br />
-        dahulu!
-      </div>
-      <div class="div-7">
-        <a href="login">
-          <div class="div-8">Masuk</div>
-        </a>
-        <a href="register">
-        <div class="div-9">Daftar</div>
-        </a>
+<body class="h-screen bg-cover bg-center" style="background-image: url('/img/baground.jpg')">
+<br><br><br><br><br>
+    <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
+        <h1 class="text-4xl font-bold text-white mb-4">AFH Cafe</h1>
+        <p class="text-lg text-white mb-8">Tempat yang nyaman untuk bersantai dan menikmati kopi</p>
+        <blockquote class="text-lg text-white italic mb-8">
+            "Coffee is the common man's gold, and like gold, it brings to every person the feeling of luxury and nobility." - Sheikh Abd-al-Kadir
+        </blockquote>
+        <a href="menus" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded animate-pulse">Explore Our Menu</a><br><br>
+        <h2 class="text-3xl font-bold text-white mb-4 ">Freshly Brewed Coffee</h2>
         
-      </div>
     </div>
-  </div>
 </body>
 </html>

@@ -1,3 +1,6 @@
+body{
+  background-image: url(/img/baground.jpg);
+}
 .div {
     background: linear-gradient(90deg, #fff 56.01%, #eee1d1 100%);
     display: flex;

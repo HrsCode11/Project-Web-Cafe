@@ -1,134 +1,104 @@
 .div {
-    padding-top: 80px;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 150%;
+  padding-top: 80px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.div-2 {
+  color: #000;
+  text-align: center;
+  letter-spacing: -0.24px;
+  margin-top: 40px;
+  font: 600 24px 'Inter', sans-serif;
+}
+
+.div-3,
+.div-4,
+.div-5 {
+  width: 90%;
+  max-width: 400px;
+  margin-top: 16px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.div-3,
+.div-4 {
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-radius: 8px;
+  background-color: #fff;
+  color: #828282;
+}
+
+.div-5 {
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.div-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  width: 90%;
+  max-width: 400px;
+  gap: 8px;
+  font-size: 16px;
+  color: #333131;
+  font-weight: 400;
+  text-align: center;
+}
+
+.div-7,
+.div-9 {
+  background-color: #e6e6e6;
+  flex: 1;
+  height: 1px;
+}
+
+.div-8 {
+  font-family: 'Inter', sans-serif;
+}
+
+.div-10 {
+  background-color: #594a47;
+  width: 100%;
+  min-height: 275px;
+  border-radius: 50px 50px 0 0;
+  margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+  .div {
+    padding-top: 120px;
   }
+
   .div-2 {
-    color: #000;
-    text-align: center;
-    letter-spacing: -0.24px;
-    margin-top: 202px;
-    font: 600 24px Inter, sans-serif;
+    margin-top: 100px;
   }
-  @media (max-width: 991px) {
-    .div-2 {
-      margin-top: 40px;
-    }
-  }
-  .div-3 {
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    text-overflow: ellipsis;
-    font-family: Inter, sans-serif;
-    border-radius: 8px;
-    border-color: rgba(224, 224, 224, 1);
-    border-style: solid;
-    border-width: 1px;
-    background-color: #fff;
-    margin-top: 24px;
-    width: 400px;
-    max-width: 100%;
-    color: #828282;
-    white-space: nowrap;
-    justify-content: center;
-    padding: 5px 16px;
-  }
-  @media (max-width: 991px) {
-    .div-3 {
-      white-space: initial;
-    }
-  }
-  .div-4 {
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    text-overflow: ellipsis;
-    font-family: Inter, sans-serif;
-    border-radius: 8px;
-    border-color: rgba(224, 224, 224, 1);
-    border-style: solid;
-    border-width: 1px;
-    background-color: #fff;
-    margin-top: 16px;
-    width: 400px;
-    max-width: 100%;
-    color: #828282;
-    white-space: nowrap;
-    justify-content: center;
-    padding: 5px 16px;
-  }
-  @media (max-width: 991px) {
-    .div-4 {
-      white-space: initial;
-    }
-  }
-  .div-5 {
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background-color: #000;
-    margin-top: 16px;
-    width: 400px;
-    max-width: 100%;
-    color: #fff;
-    white-space: nowrap;
-    padding: 8px 16px;
-    font: 16px Inter, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-5 {
-      white-space: initial;
-      padding: 0 20px;
-    }
-  }
-  .div-6 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 24px;
-    width: 400px;
-    max-width: 100%;
-    gap: 8px;
-    font-size: 16px;
-    color: #333131;
-    font-weight: 400;
-    text-align: center;
-    padding: 0 20px;
-  }
-  .div-7 {
-    background-color: #e6e6e6;
-    align-self: stretch;
-    height: 1px;
-    flex: 1;
-    margin: auto 0;
-  }
-  .div-8 {
-    font-family: Inter, sans-serif;
-    align-self: stretch;
-  }
-  .div-9 {
-    background-color: #e6e6e6;
-    align-self: stretch;
-    height: 1px;
-    flex: 1;
-    margin: auto 0;
-  }
+
   .div-10 {
-    border-radius: 50px 50px 0px 0px;
-    background-color: #594a47;
-    align-self: stretch;
-    min-height: 275px;
-    margin-top: 83px;
-    width: 100%;
+    margin-top: 80px;
   }
-  @media (max-width: 991px) {
-    .div-10 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+
+.alert{
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-danger{
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}

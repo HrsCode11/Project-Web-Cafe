@@ -10,7 +10,7 @@
 <div class="w-4/5">
         <div class="flex justify-between items-center mb-4">
             <h1 class="text-2xl">Tabel Menu</h1>
-            <a href="{{ route('menus.create') }}" class="bg-blue-500 text-white px-4 py-2 rounded">Create New Menu</a>
+            <a href="{{ route('menus.create') }}" class="bg-blue-500 text-white px-4 py-2 rounded">Tambahkan Pesanan</a>
         </div>
 
     <table class="shadow-lg bg-white border-collapse w-full">
@@ -19,7 +19,7 @@
             <th class="bg-blue-100 border text-left px-8 py-4">ID</th>
             <th class="bg-blue-100 border text-left px-8 py-4">Item</th>
             <th class="bg-blue-100 border text-left px-8 py-4">Harga</th>
-            <th class="bg-blue-100 border text-left px-8 py-4">Actions</th>
+            <th class="bg-blue-100 border text-left px-8 py-4">Aksi</th>
         </tr>
         </thead>
         @foreach ($menus as $menu)
@@ -35,7 +35,7 @@
                 <form action="{{ route('menus.destroy', $menu->id) }}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Delete</button>
+                    <button type="submit" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Hapus</button>
                 </form>
                 </div>
             </td>
