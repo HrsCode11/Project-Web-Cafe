@@ -2,7 +2,7 @@
 
 <div class="container flex justify-center mx-auto mt-10">
     <div class="w-full max-w-lg bg-white p-8 rounded-lg shadow-md">
-        <h2 class="text-2xl font-semibold mb-6">Create New Menu</h2>
+        <h2 class="text-2xl font-semibold mb-6">Tambah Menu</h2>
         <form action="{{ route('menus.store') }}" method="POST">
             @csrf
             <div class="mb-4">
